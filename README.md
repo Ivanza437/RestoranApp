@@ -17,7 +17,7 @@ Halaman Insert Data Menu Restoran. Pada halaman Ini merupakan halaman penginputa
 
 
 
-<img src="https://github.com/Ivanza437/RestoranApp/blob/main/ScreenShoot/Fitur%20Google%20map.png">
+<https://github.com/Ivanza437/RestoranApp/blob/main/ScreenShoot/tambah%20menu%202.png">
 
 
 
