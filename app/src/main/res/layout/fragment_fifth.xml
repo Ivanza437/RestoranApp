@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fifthFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sejarah Restoran"
+            android:typeface="serif"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:typeface="serif"
+            android:text="Restoran Rasa Nusantara didirikan pada tahun 2008 oleh Ibu Siti Rahayu, seorang penggemar masakan Indonesia yang memiliki keinginan untuk memperkenalkan dan mempopulerkan kekayaan kuliner Indonesia kepada masyarakat lokal maupun wisatawan. Restoran ini pertama kali dibuka di sebuah rumah kecil yang kemudian berkembang menjadi restoran yang terkenal dengan reputasi yang solid."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="4dp"
+            android:text="Misi"
+            android:typeface="serif"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:text="Misi Rasa Nusantara adalah menjaga dan melestarikan cita rasa autentik masakan Indonesia dengan menggunakan bahan-bahan segar dan tradisional. Restoran ini bertujuan untuk memberikan pengalaman kuliner yang menyenangkan dan memuaskan kepada setiap pelanggan, sambil memperkenalkan budaya Indonesia melalui makanan yang disajikan."
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:typeface="serif"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="4dp"
+            android:text="Rasa Nusantara menawarkan berbagai hidangan khas Indonesia dari berbagai daerah di Nusantara. Menu mereka mencakup hidangan pembuka, seperti gado-gado dan lumpia; hidangan utama, seperti rendang, nasi goreng, dan sate; serta hidangan penutup, seperti es teler dan pisang goreng. Restoran ini juga menyediakan berbagai pilihan lauk dan lauk pauk tradisional, serta minuman khas Indonesia, seperti teh tarik dan es kelapa muda."
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

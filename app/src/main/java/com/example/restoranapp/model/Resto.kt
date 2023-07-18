@@ -13,4 +13,7 @@ data class Resto(
     val name: String,
     val kind: String,
     val price: String,
+    val latitude: Double?,
+    val longitude: Double?
+
 ) : Parcelable

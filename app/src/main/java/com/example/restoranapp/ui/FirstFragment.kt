@@ -71,6 +71,15 @@ class FirstFragment : Fragment() {
                val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(null)
                 findNavController().navigate(action)
             }
+            binding.phoneButton.setOnClickListener {
+                findNavController().navigate(R.id.action_FirstFragment_to_thirdFragment)
+            }
+            binding.collectionButton.setOnClickListener {
+                findNavController().navigate(R.id.action_FirstFragment_to_fourthFragment)
+            }
+            binding.biografiButton.setOnClickListener {
+                findNavController().navigate(R.id.action_FirstFragment_to_fifthFragment)
+            }
     }
 
     override fun onDestroyView() {
