@@ -36,6 +36,15 @@ Pada halaman ini merupakan halaman utama yang terdapat data yang sudah di inputk
 
 
 
+## Halaman 2 (mengubah/edit data)
+Halaman ubah data menu restoran. Pada halaman Ini merupakan halaman pengubahan data disini data yang dirubah harus disisi (tidak boleh kosong)
+
+
+
+<img src="https://github.com/Ivanza437/RestoranApp/blob/main/ScreenShoot/menu%20ubah%20terbaru.png">
+
+
+
 
 ## Halaman 3
 Pada halaman ini merupakan halaman yang berisi kontak admin disini saya memasukan kontak saya
